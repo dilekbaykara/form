@@ -4,17 +4,16 @@ body {
 
 .content {
     display: flex;
-    flex-flow: row wrap;
+    background-color: #fdb69a;
+    width: 100%;
+    border-radius: 30px;
+    background-image: url("/images/main-img-right.jpg"); 
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
 }
 
-.full-card {
-    background-color: #fdb69a;
-    display: flex;
-    width:max-content;
-    height: max-content;
-    border-radius: 25px;
-    z-index: -5;
-}
 
 /*.card-image {
  width: 40%;
@@ -23,38 +22,51 @@ body {
 }
 */ 
 
-card-container {
-   background-image:url("./images/main-edit.jpg"); 
-   background-position: center;
-   background-repeat: no-repeat;
-   width: 40vh;
-  text-align: center;
+.photo-left {
+
+    background-image: url("/images/main-edit.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    width: 60vh;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
 }
 
 .card-heading{
-position: absolute;
-width: 30%;
-font-family: utopia-std, serif;
-font-size: 1.8em;
-font-weight: 700;
-font-style: italic;
-color:rgb(253, 182, 154);
-top: 12rem;
-padding: 1em;
+    height: auto;
+    position: relative;
+    top: 24vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*additions above this line*/
+    width: 50vh;
+    font-family: utopia-std, serif;
+    font-size: 1.9em;
+    font-weight: 700;
+    font-style: italic;
+    color:rgb(253, 182, 154);
+    padding: 1em;
 }
 
 h2{ 
     font-family: utopia-std, serif;
-font-weight: 700;
-font-style: italic;
-color: #6581EA;
+    font-weight: 700;
+    font-style: italic;
+    color: #3a4e48;
+    font-size: 2em;
 }
 
 .text-right {
-
-font-family: lemonde-sans, sans-serif;
-font-weight: 400;
-font-style: normal;
-   color: #3A4E48;
-   height: 50rem;
+    width: 40%;
+    font-family: lemonde-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3A4E48;
+    height: 50rem;
+    padding: 3em;
+    margin-left: 1em;
 }
