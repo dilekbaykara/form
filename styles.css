@@ -1,7 +1,60 @@
-h1 {
-font-family: utopia-std, serif;
-font-size: 5em;
-font-weight: 700;
-font-style: italic;
+body {
+    background-color: rgb(214, 234, 223);
 }
 
+.content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.full-card {
+    background-color: #fdb69a;
+    display: flex;
+    width:max-content;
+    height: max-content;
+    border-radius: 25px;
+    z-index: -5;
+}
+
+/*.card-image {
+ width: 40%;
+ border-top-left-radius: 25px;
+ border-bottom-left-radius: 25px;
+}
+*/ 
+
+card-container {
+   background-image:url("./images/main-edit.jpg"); 
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 40vh;
+  text-align: center;
+}
+
+.card-heading{
+position: absolute;
+width: 30%;
+font-family: utopia-std, serif;
+font-size: 1.8em;
+font-weight: 700;
+font-style: italic;
+color:rgb(253, 182, 154);
+top: 12rem;
+padding: 1em;
+}
+
+h2{ 
+    font-family: utopia-std, serif;
+font-weight: 700;
+font-style: italic;
+color: #6581EA;
+}
+
+.text-right {
+
+font-family: lemonde-sans, sans-serif;
+font-weight: 400;
+font-style: normal;
+   color: #3A4E48;
+   height: 50rem;
+}
