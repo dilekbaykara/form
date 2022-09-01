@@ -9,7 +9,8 @@ body {
     background-color: #fdb69a;
     border-radius: 30px;
     margin: 4em;
-    min-width: 50em;
+    min-width: 60em;
+    min-height: 40em;
 }
 
 
@@ -24,7 +25,7 @@ body {
     margin-right: 2em;
     flex-shrink: 5;
     min-height: 100vh;
-    min-width: 60vh;
+    min-width: 30em;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     
@@ -38,7 +39,7 @@ body {
     flex-shrink: 1;
     top: 14em;
     width: 50vh;
-    min-width: 40vh;
+    min-width: 30em;
     margin: 1em;
     padding: 1em;
 
@@ -72,6 +73,7 @@ body {
     font-size: 1.9em;
     color:rgb(253, 182, 154);
 
+
 }
 
 h2{
@@ -93,7 +95,11 @@ h3{
 
 }
 
+.right-container {
+    min-width: 30em;
+    
 
+}
 
 .text-right {
 
@@ -107,4 +113,5 @@ h3{
     align-items: center;
     padding-right: 2em;
     padding-top: 2em;
+
 }
