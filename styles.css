@@ -15,17 +15,18 @@ body {
 
 .photo-left { 
 
+    position: relative;
     background-image: url("/images/main-edit.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: 500px;
     width: 60vh;
-    text-align: center;
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
     margin-right: 2em;
+    flex-shrink: 5;
     min-height: 100vh;
     min-width: 60vh;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
     
 }
 
@@ -89,6 +90,7 @@ h3{
     font-family: itc-avant-garde-gothic-pro,sans-serif;
     font-weight: 500;
     font-style: normal;
+
 }
 
 
