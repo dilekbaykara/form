@@ -7,7 +7,7 @@ body {
     background-color: #fdb69a;
     border-radius: 30px;
     margin: 4em;
-   
+    min-width: 50em;
 }
 
 
@@ -18,7 +18,7 @@ body {
 }
 */ 
 
-.photo-left {
+.photo-left { 
 
     background-image: url("/images/main-edit.jpg"); 
     background-position: center;
@@ -28,7 +28,7 @@ body {
     text-align: center;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
-
+    margin-right: 2em;
 }
 
 .card-heading{
@@ -38,41 +38,51 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
     /*additions above this line*/
-    width: 50vh;
+    /* OLD FONT COMMENTED OUT 
     font-family: utopia-std, serif;
     font-size: 1.9em;
     font-weight: 700;
-    font-style: italic;
+    font-style: italic;*/
+
+    width: 50vh;
+    font-family: dejanire-headline, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.9em;
     color:rgb(253, 182, 154);
     padding: 1em;
 }
 
-h2{ 
-    font-family: utopia-std, serif;
+h2{
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
     font-weight: 700;
-    font-style: italic;
+    font-style: normal;
     color: #3a4e48;
     font-size: 2em;
+    flex-shrink: 0;
+  
 }
 
 h3{
     
-
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
 
 .text-right {
     display: flex;
-    width: 50%;
     font-family: lemonde-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #3A4E48;
     height: 50rem;
-    padding: 2em;
-    margin-left: 1em;
     flex-direction: column;
     align-items: center;
+    padding-right: 2em;
+    padding-top: 2em;
 }
