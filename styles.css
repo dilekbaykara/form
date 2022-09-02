@@ -120,8 +120,14 @@ width: 40%;
 
 }
 
-a{
+button:hover {
 
+    background-color: #191f1d;
+    color:rgb(255, 223, 208);
+
+}
+
+a{
     color: #7871aa;
     font-family: lemonde-sans, sans-serif;
     font-weight: 700;
@@ -207,4 +213,11 @@ form input[type=text], input[type=tel], input[type=email], input[type=password] 
 
 }
 
+form input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=password]:focus {
+    
+    background-color: rgb(255, 251, 249);
+    border: none;
+    border-style: none;
+    outline: none;
 
+}
