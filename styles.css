@@ -196,12 +196,9 @@ fieldset {
     height: 20em;
     border: none;
     padding: 1em;
-    margin-top: 1em;
     margin-bottom: 4em;
     flex-direction: column;
    
-
-
 }
 
 legend {
